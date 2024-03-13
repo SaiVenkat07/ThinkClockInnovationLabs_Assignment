@@ -1,0 +1,71 @@
+/* Reset default browser styles */
+html, body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set font family and size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Center content horizontally */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Add padding to container */
+.container {
+  padding: 20px;
+}
+
+/* Header style */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Form style */
+form {
+  margin-bottom: 20px;
+}
+
+/* Input style */
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+/* Submit button style */
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Button hover effect */
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Result display style */
+.result {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Footer style */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}

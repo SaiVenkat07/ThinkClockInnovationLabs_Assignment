@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Battery Cell Information</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- Header section -->
+  <header>
+    <h1>Battery Cell Information</h1>
+  </header>
+
+  <!-- Main section -->
+  <div class="container">
+    <!-- Form for uploading battery cell information -->
+    <form id="batteryForm">
+      <!-- Input field for uploading an image of the cell -->
+      <label for="imageUpload">Battery Cell:</label>
+      <input type="file" id="imageUpload" accept="image/*">
+      <!-- Other input fields for meta information -->
+      <!-- For example: cell condition, nominal voltage, etc. -->
+      <button type="submit">Submit</button> <!-- Submit button -->
+    </form>
+
+    <!-- Container for displaying the Bode plot -->
+    <div class="result" id="plot"></div>
+    <!-- Container for displaying the circuit model parameters -->
+    <div class="result" id="circuitModel"></div>
+    <!-- Container for displaying the State-of-the-Health (SoH) -->
+    <div class="result" id="soh"></div>
+  </div>
+
+  <!-- Footer section -->
+  <footer>
+    <p>&copy; 2024 Battery Cell Information</p>
+  </footer>
+
+  <!-- JavaScript for client-side interaction -->
+  <script src="index.js"></script>
+</body>
+</html>
